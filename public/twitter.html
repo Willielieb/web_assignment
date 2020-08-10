@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="main.css" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+			integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+			crossorigin="anonymous"
+		/>
+		<title>twitter api</title>
+	</head>
+
+	<body>
+		<nav class="navbar">
+			<ul>
+				<li class="index" id="index">
+					<a href="index.html">
+						<h2><i class="fas fa-home"></i></h2>
+					</a>
+				</li>
+				<li class="twitter active" id="twitter">
+					<a href="twitter.html">
+						<h2>twitter</h2>
+					</a>
+				</li>
+				<li class="spotify" id="spotify">
+					<a href="spotify.html">
+						<h2>spotify</h2>
+					</a>
+				</li>
+				<li class="omdb" id="omdb">
+					<a href="omdb.html">
+						<h2>omdb</h2>
+					</a>
+				</li>
+				<li class="adhoc" id="adhoc">
+					<a href="adhoc.html">
+						<h2>Adhoc Query</h2>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<main>
+			<div class="cards">
+				<div class="item">
+					<div class="inner-box">
+						<p>
+							this will use the twitter API to get the 20 most
+							recent tweets from a user.
+						</p>
+						<label for="usernameinput">username: </label>
+						<input type="text" name="" id="usernameinput" />
+						<label for="amountoftweets">amount </label>
+						<input type="number" name="" id="amountoftweets" />
+						<button class="btnSend" id="getTweets">
+							get tweets
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="tweetbox cards" id="tweetbox"></div>
+		</main>
+		<script src="twittermain.js"></script>
+	</body>
+</html>

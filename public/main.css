@@ -1,0 +1,153 @@
+body {
+	background: #444;
+	color: #fff;
+	height: 100%;
+	margin: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.5;
+}
+
+main {
+	padding: 5rem;
+	height: 100vh;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+.active {
+	background-color: #4caf50;
+}
+.cards {
+	display: grid;
+	grid-gap: 0.7rem;
+	grid-template-columns: repeat(2, 1fr);
+}
+.cards .item {
+	background: #212121;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7),
+		-1px -1px 2px rgba(64, 64, 64, 0.4);
+	border-radius: 25px;
+	padding: 4px;
+}
+.item {
+	margin: 1rem;
+	background: #212121;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7),
+		-1px -1px 2px rgba(64, 64, 64, 0.4);
+	border-radius: 25px;
+	padding: 4px;
+	overflow: auto;
+}
+.inner-box {
+	padding: 1rem;
+}
+.omdb .cards {
+	display: grid;
+	grid-gap: 0.7rem;
+	grid-template-columns: repeat(2, 1fr);
+}
+.omdb .cards .item {
+	background: #212121;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7),
+		-1px -1px 2px rgba(64, 64, 64, 0.4);
+	border-radius: 25px;
+	padding: 4px;
+}
+
+.cards .item .inner-box {
+	background: #212121;
+	box-shadow: inset 1px 1px 2px #000000,
+		inset -1px -1px 1px rgba(89, 89, 89, 0.4);
+	border-radius: 23px;
+	padding: 1rem;
+}
+.inner-box {
+	padding: 1rem;
+}
+.tweetContainer {
+	padding: 1rem;
+	margin-top: 1rem;
+	border-radius: 10px;
+	background-color: #fff;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7),
+		-1px -1px 2px rgba(64, 64, 64, 0.4);
+}
+
+.tweetbox {
+	margin-top: 1rem;
+	border-radius: 10px;
+}
+
+.userhandletext {
+	color: blue;
+	margin: 0;
+}
+
+.usernametext {
+	padding: 10px;
+	color: #000000;
+	margin: 0;
+}
+
+.tweetblock {
+	padding: 10px;
+	color: #000000;
+	margin: 0;
+	border-radius: 10px;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2),
+		-1px -1px 2px rgba(64, 64, 64, 0.2);
+}
+.songlink {
+	display: flex;
+	flex-direction: column;
+	color: #5060bd;
+}
+.song {
+	padding: 1rem;
+}
+
+.btnSend {
+	padding: 5px;
+	margin-top: 10px;
+	background: rgba(68, 68, 68, 0.5);
+	color: #ffffff;
+	border: 2px solid #5060bd;
+	border-radius: 7px;
+	text-align: center;
+}
+.omdbcontainer a {
+	color: #5060bd;
+}
+.title {
+	color: #4caf50;
+}
+.title span {
+	color: #ffffff;
+}
